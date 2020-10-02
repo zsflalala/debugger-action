@@ -1,6 +1,6 @@
 # Action Debugger
 
-Interactive debugger for GitHub Actions
+Interactive debugger for GitHub Actions.
 
 ## Usage
 ```
