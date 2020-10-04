@@ -1,4 +1,4 @@
-name: CI
+name: VM
 on: [push]
 jobs:
   build:
