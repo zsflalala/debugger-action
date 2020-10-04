@@ -14,6 +14,7 @@ if [ -x "$(command -v brew)" ]; then
 fi
 if [ -x "$(command -v apt-get)" ]; then
   sudo apt-get install -y tmate openssh-client > /tmp/apt-get.log
+  touch /tmp/keepalive
 fi
 
 # Generate ssh key if needed
