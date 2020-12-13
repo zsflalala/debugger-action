@@ -64,7 +64,7 @@ typings/
 
 # next.js build output
 .next
-
+__pycache__
 sfunc.py
 run.py
 push_now.py
