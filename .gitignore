@@ -64,3 +64,8 @@ typings/
 
 # next.js build output
 .next
+
+sfunc.py
+run.py
+push_now.py
+chromedriver.exe
