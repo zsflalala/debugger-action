@@ -1,0 +1,15 @@
+name: Geekbench benchmark
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Run Geekbench benchmark
+    steps:
+    - name: checkout
+      uses: actions/checkout@master
+    - name: benchmark
+      run: |
+          wget https://cdn.geekbench.com/Geekbench-5.4.4-Linux.tar.gz
+          tar xzvf Geekbench-5.4.4-Linux.tar.gz
+          cd Geekbench-5.4.4-Linux
+          sudo ./geekbench5
